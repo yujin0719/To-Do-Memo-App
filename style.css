@@ -1,0 +1,145 @@
+body{
+    background-color: #0079bf;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+  list-style: none;
+}
+i {
+  cursor: pointer;
+}
+button{
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #0067a3;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 24px;
+}
+header p{
+    padding-right: 10px;
+}
+.filter{
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+.filter button {
+  color: #17394d;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  margin: 2px;
+}
+
+.column__list {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 10px;
+}
+.column__item {
+    width: 270px;
+  border-radius: 8px;
+  background-color: #dfe3e6;
+  padding: 10px 16px;
+  margin-right: 10px;
+  height: 100%;
+}
+.columnn__tle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.columnn__tle h1 {
+  font-size: 14px;
+  color: #17394d;
+  font-weight: 700;
+}
+.columnn__tle i {
+  color: #798d99;
+}
+
+/* card */
+.card__list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+.card__item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 0 rgba(9, 45, 66, 0.25);
+  padding: 0.5rem;
+  margin: 4px 0 ;
+  display: none;
+}
+.card__tle{
+    margin: 0 0 10px 0;
+}
+.card__tag {
+display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  font-weight: 700;
+  color: white;
+  margin: 2px;
+}
+.card__action {
+  display: flex;
+  align-items: center;
+}
+.card__action i {
+    margin-right: 8px;
+}
+.card__avatars {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.avatar img {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 2px;
+}
+.column__add{
+    display: inline-flex;
+    align-items: center;
+    color: #798d99;
+    cursor: pointer;
+}
+.column__add i {
+    margin-right: 4px;
+}
+.doing{
+    background-color:deepskyblue;
+}
+.done {
+    background-color:green;
+}
+.to_do{
+    background-color:darkorange;
+}
+.team{
+  background-color: fuchsia;
+}
+.showing {
+  display: block;
+}
